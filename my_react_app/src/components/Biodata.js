@@ -1,5 +1,6 @@
 import React,{Component} from 'react';
 
+
 class Biodata extends Component{
 
   constructor(props){
@@ -9,7 +10,7 @@ class Biodata extends Component{
       place: props.data[0].place,
       phone_no: ""
     }
-    
+
 }
 
 moreContactInfo(){
