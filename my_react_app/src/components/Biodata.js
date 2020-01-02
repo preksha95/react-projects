@@ -5,10 +5,11 @@ class Biodata extends Component{
   constructor(props){
     super(props);
     this.state={
-      name: props.name,
-      place: props.place,
+      name: props.data[0].name,
+      place: props.data[0].place,
       phone_no: ""
     }
+    
 }
 
 moreContactInfo(){
