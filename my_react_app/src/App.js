@@ -14,7 +14,7 @@ function App() {
 
   return (
     <div className="App">
-    <Biodata info={data}></Biodata>
+    <Biodata data={data}></Biodata>
     </div>
   );
 }
