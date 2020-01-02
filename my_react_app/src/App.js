@@ -6,17 +6,19 @@ import ClassComponent from './components/ClassComponent'
 import MenuFunctionalComponent from './components/MenuFunctionalComponent'
 import Biodata from './components/Biodata'
 
-function App() {
-  const data=[{
-    name:"Achyuthapreksha",
-    place: "Doddaballapur"
-  }];
+const data=[{
+  name:"Achyuthapreksha",
+  place: "Doddaballapur"
+}];
 
-  return (
-    <div className="App">
-    <Biodata data={data}></Biodata>
-    </div>
-  );
+class App extends ClassComponent{
+  render(){
+    return (
+      <div className="App">
+      <Biodata data={data}></Biodata>
+      </div>
+    );
+  }
 }
 
 export default App;
